@@ -1,6 +1,6 @@
 <expresion> ::= <termino> | <termino> "+" <expresion> | <termino> "-" <expresion>
 
-<termino> ::= <factor> | <factor> "." <termino> | <factor> "/" <termino>
+<termino> ::= <factor> | <factor> "·" <termino> | <factor> "/" <termino>
 
 <factor> ::= <numero> | "(" <expresion> ")"
 
